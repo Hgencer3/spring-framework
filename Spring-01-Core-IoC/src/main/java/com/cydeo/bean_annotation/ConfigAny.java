@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ConfigAny {
 
-    @Bean
+    @Bean(name="")
     String str(){
         return "Developer";
     }
